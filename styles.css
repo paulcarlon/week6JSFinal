@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box; /* so adding padding and or border doesnt change dom dimensions */
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex; /*display flex to center this way!!*/
+  flex-direction: column; /* column */
+  align-items: center; /*center horizontal*/
+  justify-content: center; /* center ventical after...*/
+  height: 100vh; /* you set height!*/
+  overflow: hidden;
+  margin: 0;
+}
